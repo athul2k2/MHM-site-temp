@@ -1,0 +1,8 @@
+Exhibiz 1.2
+New news page (dark and light)
+New single news page (dark and light)
+
+Exhibiz 1.1
+New 'expanded content area'
+Improvements for styles
+Improvements for mobile
