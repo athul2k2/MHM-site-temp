@@ -7688,3 +7688,13 @@ display:table;
 		display:none;
 	}
 	}
+
+
+	.fade-in {
+		opacity: 0.0;
+		transition: opacity 5s;
+	}
+	
+	.fade-in:hover {
+		opacity: 1.00;
+	}
