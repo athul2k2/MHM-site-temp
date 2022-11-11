@@ -7978,12 +7978,17 @@ i.btn-action-hide {
 
 	div#logo {
 		margin-top: -15px;
+		
 	}
 
 	#logo,
 	#logo .inner {
 		vertical-align: middle;
 		height: auto;
+	}
+	.logo{
+		height: 50px;
+
 	}
 
 	#domain-check .text,
