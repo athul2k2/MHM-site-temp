@@ -2268,6 +2268,7 @@ input.btn-custom {
 input.btn-custom-1 {
 	background-color: #ffb110;
 	font-size:13px;
+	font-weight: 500;
 	letter-spacing: 3px;
 	line-height: normal;
 	text-decoration: none;
@@ -7813,6 +7814,15 @@ i.btn-action-hide {
 
 }
 
+@media (min-width:992px) and (max-width:1980px)
+{
+	.logo {
+		float:right;
+		position:relative;
+		height: 40px;
+
+	}
+}
 
 @media only screen and (max-width: 992px) {
 
@@ -7987,8 +7997,8 @@ i.btn-action-hide {
 		height: auto;
 	}
 	.logo{
-		height: 50px;
-
+		height:30px;
+		
 	}
 
 	#domain-check .text,
