@@ -5981,7 +5981,7 @@ i.i_h3 {
 .wm {
 	width: 100%;
 	position: relative;
-	font-size: 200px;
+	font-size: 100px;
 	text-align: center;
 	font-weight: bold;
 	top: 33px;
@@ -5996,7 +5996,7 @@ i.i_h3 {
 }
 
 .wm.dark.wm-border {
-	font-size: 280px;
+	font-size: 125px;
 	color: rgba(0, 0, 0, 0);
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: rgba(255, 255, 255, .2);
