@@ -1349,7 +1349,7 @@ header.side-header .social-icons-2 a:hover {
 
 header.header-mobile {
 	position: fixed;
-	background: #000;
+	background: rgb(0 0 0 / -22%);             
 	
 	
 	z-index: 1000;
@@ -2567,7 +2567,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #303133;
+	color: #ffb110;
 	font-family: 'Dosis', Arial, Helvetica, sans-serif;
 	font-weight: 400;
 }
@@ -5984,11 +5984,31 @@ i.i_h3 {
 	font-size: 100px;
 	text-align: center;
 	font-weight: bold;
-	top: 33px;
+	top: -10px;
 	-webkit-user-select: none;
 	-moz-user-select: -moz-none;
 	-ms-user-select: none;
 	user-select: none;
+}
+.wm1{
+
+	width: 100%;
+	position: relative;
+	font-size: 100px;
+	text-align: center;
+	font-weight: bold;
+	top: -40px;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.wm1.dark.wm1-border
+{
+	font-size: 100px;
+	color: rgba(0, 0, 0, 0);
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: rgba(255, 255, 255, .2);
 }
 
 .wm.dark {
@@ -5996,7 +6016,7 @@ i.i_h3 {
 }
 
 .wm.dark.wm-border {
-	font-size: 125px;
+	font-size: 100px;
 	color: rgba(0, 0, 0, 0);
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: rgba(255, 255, 255, .2);
@@ -6371,6 +6391,7 @@ i.i_h3 {
 
 p {
 	margin-bottom: 20px;
+	text-align: justify;
 }
 
 
@@ -7046,6 +7067,10 @@ section.no-padding {
 	width: 100%;
 }
 
+.de-images1 {
+	position: relative;
+	width: 100%;
+}
 .de-images img {
 	border-radius: 5px;
 	-webkit-box-shadow: 2px 20px 30px 0px rgba(20, 20, 20, 0.2);
@@ -8761,4 +8786,86 @@ i.btn-action-hide {
 	  }
 
 
-	  
+	.faq_area {
+		position: relative;
+		z-index: 1;
+	}
+	
+	.faq-accordian {
+		position: relative;
+		z-index: 1;
+	}
+	.faq-accordian .card {
+		position: relative;
+		z-index: 1;
+		margin-bottom: 1.5rem;
+	}
+	.faq-accordian .card:last-child {
+		margin-bottom: 0;
+	}
+	.faq-accordian .card .card-header {
+		
+		padding: 0;
+		border-bottom-color: #ebebeb;
+	}
+	.faq-accordian .card .card-header h6 {
+		cursor: pointer;
+		padding: 1.75rem 2rem;
+		color: #f9cc5d;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-ms-grid-row-align: center;
+		align-items: center;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+	.faq-accordian .card .card-header h6 span {
+		font-size: 1.5rem;
+	}
+	.faq-accordian .card .card-header h6.collapsed {
+		color: #ffb110;
+	}
+	.faq-accordian .card .card-header h6.collapsed span {
+		-webkit-transform: rotate(-180deg);
+		transform: rotate(-180deg);
+	}
+	.faq-accordian .card .card-body {
+		padding: 1.75rem 2rem;
+	}
+	.faq-accordian .card .card-body p:last-child {
+		margin-bottom: 0;
+	}
+	
+	@media only screen and (max-width: 575px) {
+		.support-button p {
+			font-size: 14px;
+		}
+	}
+	
+	.support-button i {
+		color: #3f43fd;
+		font-size: 1.25rem;
+	}
+	@media only screen and (max-width: 575px) {
+		.support-button i {
+			font-size: 1rem;
+		}
+	}
+	
+	.support-button a {
+		text-transform: capitalize;
+		color: #2ecc71;
+	}
+	@media only screen and (max-width: 575px) {
+		.support-button a {
+			font-size: 13px;
+		}
+	}
+
+	
+
+
